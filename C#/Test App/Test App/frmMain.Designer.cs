@@ -33,6 +33,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnSubmit = new System.Windows.Forms.Button();
             this.btnGenerate = new System.Windows.Forms.Button();
+            this.txtGuess1 = new System.Windows.Forms.TextBox();
+            this.txtGuess2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -68,7 +70,7 @@
             // 
             // btnSubmit
             // 
-            this.btnSubmit.Location = new System.Drawing.Point(16, 113);
+            this.btnSubmit.Location = new System.Drawing.Point(12, 152);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(154, 23);
             this.btnSubmit.TabIndex = 4;
@@ -78,7 +80,7 @@
             // 
             // btnGenerate
             // 
-            this.btnGenerate.Location = new System.Drawing.Point(176, 113);
+            this.btnGenerate.Location = new System.Drawing.Point(172, 152);
             this.btnGenerate.Name = "btnGenerate";
             this.btnGenerate.Size = new System.Drawing.Size(130, 23);
             this.btnGenerate.TabIndex = 5;
@@ -86,11 +88,29 @@
             this.btnGenerate.UseVisualStyleBackColor = true;
             this.btnGenerate.Click += new System.EventHandler(this.btnGenerate_Click);
             // 
+            // txtGuess1
+            // 
+            this.txtGuess1.Location = new System.Drawing.Point(18, 91);
+            this.txtGuess1.Name = "txtGuess1";
+            this.txtGuess1.Size = new System.Drawing.Size(100, 23);
+            this.txtGuess1.TabIndex = 6;
+            this.txtGuess1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtGuess1_KeyPress);
+            // 
+            // txtGuess2
+            // 
+            this.txtGuess2.Location = new System.Drawing.Point(12, 120);
+            this.txtGuess2.Name = "txtGuess2";
+            this.txtGuess2.Size = new System.Drawing.Size(100, 23);
+            this.txtGuess2.TabIndex = 6;
+            this.txtGuess2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtGuess2_KeyPress);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(334, 226);
+            this.Controls.Add(this.txtGuess2);
+            this.Controls.Add(this.txtGuess1);
             this.Controls.Add(this.btnGenerate);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.label2);
@@ -111,5 +131,7 @@
         private Label label2;
         private Button btnSubmit;
         private Button btnGenerate;
+        private TextBox txtGuess1;
+        private TextBox txtGuess2;
     }
 }

@@ -1,0 +1,17 @@
+D:\projects\VS\C#\Test App\Test App\bin\Debug\net6.0-windows\Test App.exe
+D:\projects\VS\C#\Test App\Test App\bin\Debug\net6.0-windows\Test App.deps.json
+D:\projects\VS\C#\Test App\Test App\bin\Debug\net6.0-windows\Test App.runtimeconfig.json
+D:\projects\VS\C#\Test App\Test App\bin\Debug\net6.0-windows\Test App.dll
+D:\projects\VS\C#\Test App\Test App\bin\Debug\net6.0-windows\Test App.pdb
+D:\projects\VS\C#\Test App\Test App\obj\Debug\net6.0-windows\Test App.csproj.AssemblyReference.cache
+D:\projects\VS\C#\Test App\Test App\obj\Debug\net6.0-windows\Test_App.frmMain.resources
+D:\projects\VS\C#\Test App\Test App\obj\Debug\net6.0-windows\Test App.csproj.GenerateResource.cache
+D:\projects\VS\C#\Test App\Test App\obj\Debug\net6.0-windows\Test App.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\VS\C#\Test App\Test App\obj\Debug\net6.0-windows\Test App.AssemblyInfoInputs.cache
+D:\projects\VS\C#\Test App\Test App\obj\Debug\net6.0-windows\Test App.AssemblyInfo.cs
+D:\projects\VS\C#\Test App\Test App\obj\Debug\net6.0-windows\Test App.csproj.CoreCompileInputs.cache
+D:\projects\VS\C#\Test App\Test App\obj\Debug\net6.0-windows\Test App.dll
+D:\projects\VS\C#\Test App\Test App\obj\Debug\net6.0-windows\refint\Test App.dll
+D:\projects\VS\C#\Test App\Test App\obj\Debug\net6.0-windows\Test App.pdb
+D:\projects\VS\C#\Test App\Test App\obj\Debug\net6.0-windows\Test App.genruntimeconfig.cache
+D:\projects\VS\C#\Test App\Test App\obj\Debug\net6.0-windows\ref\Test App.dll

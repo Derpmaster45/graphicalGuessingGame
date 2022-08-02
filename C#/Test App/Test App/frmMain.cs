@@ -44,10 +44,21 @@ namespace Test_App
 
         private void btnSubmit_Click(object sender, EventArgs e)
         {
-            // validation code goes here
-            // comparison code goes here
+            int guess1 = Convert.ToInt32(txtGuess1.Text);
+            int guess2 = Convert.ToInt32(txtGuess2.Text);
+           int guessProduct= FindProduct(guess1, guess2);
+            int intialProduct = Convert.ToInt32(lblProduct.Text);
+            int successfulSubmitCount =0;
+            if(guessProduct == intialProduct) 
+            {
+                MessageBox.Show("Congratulations, you guessed the numbers correct. Click Generate Numbers to try again! ","You Win",MessageBoxButtons.OKCancel,MessageBoxIcon.Exclamation);
+                successfulSubmitCount++;
+            }
+            else
+            {
+                MessageBox.Show("Incorrect. Please Try Again","Wrong Answer",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            }
         }
-
         private void btnGenerate_Click(object sender, EventArgs e)
         {
             Random random = new Random();
@@ -57,6 +68,42 @@ namespace Test_App
             lblProduct.Text = product.ToString();
 
             int secondNumberToGuess=random.Next(1, 19);
+            txtGuess1.Text = "";
+            txtGuess2.Text = "";
+        }
+
+        private void txtGuess1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            string message = "";
+            if (Char.IsDigit(e.KeyChar) || Char.IsControl(e.KeyChar))
+            {
+                // leave this code block empty, error should not arise when numbers are entered
+
+            }
+            else 
+            {
+                message = "Numbers are required in this field.";
+                MessageBox.Show(message,"Unexpected answer",MessageBoxButtons.OKCancel,MessageBoxIcon.Error);
+                // handle error
+                e.Handled = true;
+            }
+        }
+
+        private void txtGuess2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            string message = "";
+            if (Char.IsDigit(e.KeyChar) || Char.IsControl(e.KeyChar))
+            {
+                // leave this code block empty, error should not arise when numbers are entered
+
+            }
+            else
+            {
+                message = "Numbers are required in this field.";
+                MessageBox.Show(message, "Unexpected answer", MessageBoxButtons.OKCancel, MessageBoxIcon.Error);
+                // handle error
+                e.Handled = true;
+            }
         }
     }
 }
