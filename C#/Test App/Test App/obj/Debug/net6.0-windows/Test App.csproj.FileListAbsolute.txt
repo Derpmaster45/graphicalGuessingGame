@@ -15,3 +15,20 @@ D:\projects\VS\C#\Test App\Test App\obj\Debug\net6.0-windows\refint\Test App.dll
 D:\projects\VS\C#\Test App\Test App\obj\Debug\net6.0-windows\Test App.pdb
 D:\projects\VS\C#\Test App\Test App\obj\Debug\net6.0-windows\Test App.genruntimeconfig.cache
 D:\projects\VS\C#\Test App\Test App\obj\Debug\net6.0-windows\ref\Test App.dll
+C:\Users\jstel\Downloads\graphicalGuessingGame-Indev\graphicalGuessingGame-Indev\C#\Test App\Test App\bin\Debug\net6.0-windows\Test App.exe
+C:\Users\jstel\Downloads\graphicalGuessingGame-Indev\graphicalGuessingGame-Indev\C#\Test App\Test App\bin\Debug\net6.0-windows\Test App.deps.json
+C:\Users\jstel\Downloads\graphicalGuessingGame-Indev\graphicalGuessingGame-Indev\C#\Test App\Test App\bin\Debug\net6.0-windows\Test App.runtimeconfig.json
+C:\Users\jstel\Downloads\graphicalGuessingGame-Indev\graphicalGuessingGame-Indev\C#\Test App\Test App\bin\Debug\net6.0-windows\Test App.dll
+C:\Users\jstel\Downloads\graphicalGuessingGame-Indev\graphicalGuessingGame-Indev\C#\Test App\Test App\bin\Debug\net6.0-windows\Test App.pdb
+C:\Users\jstel\Downloads\graphicalGuessingGame-Indev\graphicalGuessingGame-Indev\C#\Test App\Test App\obj\Debug\net6.0-windows\Test App.csproj.AssemblyReference.cache
+C:\Users\jstel\Downloads\graphicalGuessingGame-Indev\graphicalGuessingGame-Indev\C#\Test App\Test App\obj\Debug\net6.0-windows\Test_App.frmMain.resources
+C:\Users\jstel\Downloads\graphicalGuessingGame-Indev\graphicalGuessingGame-Indev\C#\Test App\Test App\obj\Debug\net6.0-windows\Test App.csproj.GenerateResource.cache
+C:\Users\jstel\Downloads\graphicalGuessingGame-Indev\graphicalGuessingGame-Indev\C#\Test App\Test App\obj\Debug\net6.0-windows\Test App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jstel\Downloads\graphicalGuessingGame-Indev\graphicalGuessingGame-Indev\C#\Test App\Test App\obj\Debug\net6.0-windows\Test App.AssemblyInfoInputs.cache
+C:\Users\jstel\Downloads\graphicalGuessingGame-Indev\graphicalGuessingGame-Indev\C#\Test App\Test App\obj\Debug\net6.0-windows\Test App.AssemblyInfo.cs
+C:\Users\jstel\Downloads\graphicalGuessingGame-Indev\graphicalGuessingGame-Indev\C#\Test App\Test App\obj\Debug\net6.0-windows\Test App.csproj.CoreCompileInputs.cache
+C:\Users\jstel\Downloads\graphicalGuessingGame-Indev\graphicalGuessingGame-Indev\C#\Test App\Test App\obj\Debug\net6.0-windows\Test App.dll
+C:\Users\jstel\Downloads\graphicalGuessingGame-Indev\graphicalGuessingGame-Indev\C#\Test App\Test App\obj\Debug\net6.0-windows\refint\Test App.dll
+C:\Users\jstel\Downloads\graphicalGuessingGame-Indev\graphicalGuessingGame-Indev\C#\Test App\Test App\obj\Debug\net6.0-windows\Test App.pdb
+C:\Users\jstel\Downloads\graphicalGuessingGame-Indev\graphicalGuessingGame-Indev\C#\Test App\Test App\obj\Debug\net6.0-windows\Test App.genruntimeconfig.cache
+C:\Users\jstel\Downloads\graphicalGuessingGame-Indev\graphicalGuessingGame-Indev\C#\Test App\Test App\obj\Debug\net6.0-windows\ref\Test App.dll

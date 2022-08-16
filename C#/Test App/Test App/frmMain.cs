@@ -51,13 +51,22 @@ namespace Test_App
             int successfulSubmitCount =0;
             if(guessProduct == intialProduct) 
             {
-                MessageBox.Show("Congratulations, you guessed the numbers correct. Click Generate Numbers to try again! ","You Win",MessageBoxButtons.OKCancel,MessageBoxIcon.Exclamation);
+                MessageBox.Show("Congratulations, you guessed the numbers correct.","You Win",MessageBoxButtons.OKCancel,MessageBoxIcon.Exclamation);
                 successfulSubmitCount++;
             }
             else
             {
                 MessageBox.Show("Incorrect. Please Try Again","Wrong Answer",MessageBoxButtons.OK,MessageBoxIcon.Information);
             }
+            Random random = new Random();
+            int numToGuess = random.Next(1, 19);
+            int secondNumToGuess = random.Next(1, 19);
+            int product = FindProduct(numToGuess, secondNumToGuess);
+            lblProduct.Text = product.ToString();
+
+            int secondNumberToGuess = random.Next(1, 19);
+            txtGuess1.Text = "";
+            txtGuess2.Text = "";
         }
         private void btnGenerate_Click(object sender, EventArgs e)
         {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FQHzKQMfsDBdX/WtWyet3aI7Cfnod3oYghmqmxiVX+j15QKkc3JPV5jVhiAirsIgzgYdUau5ZGmzXCro75q29A==",
+  "dgSpecHash": "VfLRGfVWgilcp3eik+MH4e8kOI+o+YkMus4HpVrQ677XIHebacatH1VdnRrJZh7bgvFV/qis2dVmVNAR2YrCjQ==",
   "success": true,
-  "projectFilePath": "D:\\projects\\VS\\C#\\Test App\\Test App\\Test App.csproj",
+  "projectFilePath": "C:\\Users\\jstel\\Downloads\\graphicalGuessingGame-Indev\\graphicalGuessingGame-Indev\\C#\\Test App\\Test App\\Test App.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
